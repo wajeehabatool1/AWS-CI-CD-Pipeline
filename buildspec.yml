@@ -4,10 +4,10 @@ env:
   variables:
     AWS_ACCOUNT_ID: "339712865909"
     AWS_DEFAULT_REGION: "ap-south-1"
-    IMAGE_REPO_NAME: "nodejs-ecr"
+    IMAGE_REPO_NAME: "node-application-ecr"
     IMAGE_TAG: "latest"
     CONTAINER_NAME: "nodejs-app-container"
-    S3_BUCKET_NAME: "aws-ci-cd-bucket"
+    S3_BUCKET_NAME: "image-definition-bucket"
 
 phases:
   pre_build:
